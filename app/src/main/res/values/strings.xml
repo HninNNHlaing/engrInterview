@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EngrInterview</string>
+    <string name="hello">Hello </string>
+    <string name="result">Result</string>
+    <string name="firstName">First Name</string>
+    <string name="lastName">Last Name</string>
+    <string name="favFood">Favorite Food</string>
+    <string name="favNum">Favorite Number</string>
+
+    <string name="errFirstName">Enter Your First Name</string>
+    <string name="errLastName">Enter Your Last Name</string>
+    <string name="errFavFood">Enter Your Favorite Food</string>
+    <string name="errFavNum">Enter Your Favorite Number</string>
+
+    <string name="resultTitle">----- Result -----</string>
+</resources>

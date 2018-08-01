@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginBottom="@dimen/dp10"
+        android:layout_marginTop="@dimen/dp20"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="ANDROID INTERVIEW"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/marginLarge"
+        android:layout_marginTop="@dimen/marginXLarge"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginLarge"
+            android:background="@drawable/ed_shadow_background"
+            android:hint="@string/firstName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="@dimen/sp16" />
+
+        <TextView
+            android:id="@+id/tvErrFirstName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp5"
+            android:text="@string/errFirstName"
+            android:textColor="@color/errRed"
+            android:textSize="@dimen/sp12"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/etLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginLarge"
+            android:background="@drawable/ed_shadow_background"
+            android:hint="@string/lastName"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="@dimen/sp16" />
+
+        <TextView
+            android:id="@+id/tvErrLastName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp5"
+            android:text="@string/errLastName"
+            android:textColor="@color/errRed"
+            android:textSize="@dimen/sp12"
+            android:visibility="invisible" />
+
+
+        <EditText
+            android:id="@+id/etFavFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginLarge"
+            android:background="@drawable/ed_shadow_background"
+            android:hint="@string/favFood"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="@dimen/sp16" />
+
+        <TextView
+            android:id="@+id/tvErrFavFood"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp5"
+            android:text="@string/errFavFood"
+            android:textColor="@color/errRed"
+            android:textSize="@dimen/sp12"
+            android:visibility="invisible" />
+
+
+        <EditText
+            android:id="@+id/etFavNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginLarge"
+            android:background="@drawable/ed_shadow_background"
+            android:hint="@string/favNum"
+            android:inputType="number"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textSize="@dimen/sp16" />
+
+        <TextView
+            android:id="@+id/tvErrFavNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/dp5"
+            android:text="@string/errFavNum"
+            android:textColor="@color/errRed"
+            android:textSize="@dimen/sp12"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnContinue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginLarge"
+            android:background="@drawable/button_corner_round"
+            android:onClick="onContinueClickListener"
+            android:padding="@dimen/dp5"
+            android:text="Continue"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+
+</LinearLayout>
